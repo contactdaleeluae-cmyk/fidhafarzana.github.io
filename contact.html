@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Fidha Farzana</title>
+  <meta name="description" content="Start a conversation with Fidha Farzana. Reach out by email, LinkedIn, or WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="petals" aria-hidden="true">
+    <span class="petal-fall"></span><span class="petal-fall"></span><span class="petal-fall"></span>
+    <span class="petal-fall"></span><span class="petal-fall"></span><span class="petal-fall"></span>
+    <span class="petal-fall"></span><span class="petal-fall"></span>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true"></span>
+        <span><b>Fidha Farzana</b><span>Words that work</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+      <ul class="nav-links" id="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a class="btn" href="contact.html">Work with me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ CONTACT HERO ============ -->
+  <section class="hero" style="padding: 90px 0 60px;">
+    <div class="wrap">
+      <p class="eyebrow fade-up d1">Let us begin</p>
+      <h1 class="fade-up d2" style="font-size: clamp(2.4rem,6vw,4.2rem);">Tell me what you are <span class="accent">building.</span></h1>
+      <p class="lede fade-up d3">Whether you have a clear brief or just a vague feeling that your words could be doing more, send it over. I read everything and reply like a human.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT CARDS ============ -->
+  <section style="padding-bottom: 30px;">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="ic">&#9993;</div>
+          <h3>Email</h3>
+          <a href="mailto:fidhawork3@gmail.com">fidhawork3@gmail.com</a>
+          <p>Best for detailed briefs and project enquiries.</p>
+        </div>
+        <div class="contact-card">
+          <div class="ic">&#128188;</div>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/fidha-farzana" target="_blank" rel="noopener">/in/fidha-farzana</a>
+          <p>Connect, say hello, and see the work in motion.</p>
+        </div>
+        <div class="contact-card">
+          <div class="ic">&#128172;</div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/917736732266" target="_blank" rel="noopener">+91 77367 32266</a>
+          <p>Quick questions and faster replies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MESSAGE FORM (opens your email app) ============ -->
+  <section class="section-pad" style="padding-top: 30px;">
+    <div class="wrap">
+      <form class="contact-form" action="mailto:fidhawork3@gmail.com" method="post" enctype="text/plain">
+        <h3 style="margin-bottom:22px; font-size:1.6rem;">Send a quick message</h3>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="What should I call you?" required />
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="Where can I reply?" required />
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me a little about your brand and what you need." required></textarea>
+        <button type="submit" class="btn" style="width:100%; justify-content:center;">Send message</button>
+        <p style="color:var(--muted); font-size:.85rem; margin-top:14px; text-align:center;">This opens your email app with the message ready to send.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <div>
+          <h4>Fidha Farzana</h4>
+          <p>Writer and social media strategist helping founders and brands say the right thing to the right people.</p>
+        </div>
+        <div class="col">
+          <h5>Explore</h5>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="col">
+          <h5>Reach me</h5>
+          <a href="mailto:fidhawork3@gmail.com">fidhawork3@gmail.com</a>
+          <a href="https://www.linkedin.com/in/fidha-farzana" target="_blank" rel="noopener">LinkedIn /in/fidha-farzana</a>
+          <a href="https://wa.me/917736732266" target="_blank" rel="noopener">WhatsApp +91 77367 32266</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>&copy; 2026 Fidha Farzana. All rights reserved.</span>
+        <span>Made with care and a little cherry blossom.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
